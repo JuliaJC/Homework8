@@ -71,11 +71,3 @@ int ReadInt(string message)
     return Convert.ToInt32(Console.ReadLine());
 }
 
-void WriteArray(int[] array)
-{
-for(int i = 0; i < array.Length; i++)
-{
-Console.Write(array[i] + " ");
-}
-Console.WriteLine();
-}
